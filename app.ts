@@ -1,10 +1,11 @@
-const msg: string = 'Hola mundo';
+(() => {
 
-const hero = {
-    name: 'Ironman',
-    age: 45
-}
+    const a:number = 10;
+    console.log( a );
 
-hero.age = '50'
+})();
 
-console.log( hero );
+
+// function sayHello( msg: string ) {
+//     console.log( msg + ' ' + 'Eduardo' );
+// }
